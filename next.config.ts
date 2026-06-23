@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // output: 'export',  <-- Remove or comment out this line
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true, 
   },
 };
 
